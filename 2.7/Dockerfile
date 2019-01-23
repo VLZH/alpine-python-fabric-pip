@@ -1,6 +1,6 @@
 FROM alpine:3.4
 
-MAINTAINER Vladimir Zhdanov (http://redline.kg/)
+MAINTAINER VLZH
 
 RUN apk update && \
     apk add --no-cache curl rsync openssh python py-pip && \
